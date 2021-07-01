@@ -16,7 +16,7 @@ CREATE TABLE address_Book
 
 INSERT INTO address_Book(first_name,last_name,address,city,state,zip,phone,email)
 VALUES ('Pranali','Patil','ShriKrishna Colony','Shahada','Maharashtra',435409,9879876800,'pranali01@gmail.com'),
-('Rupali','Patil','Tulsi Nagar','Shahada','Maharashtra',412309,9123654367,'rupaliPatil16@gmail.com'),
+('Rupali','Patil','Tulsi Nagar','Shahada','Maharashtra',435409,9123654367,'rupaliPatil16@gmail.com'),
 ('Riya','More','College Road','Nasik','Maharahtra',455110,8821056811,'riyamore@gmail.com'),
 ('Priyanka','Sonar','Shvaji Nagar','Pune','Maharashtra',461124,7653809765,'priya03@gmail.com');
 
@@ -29,7 +29,18 @@ DELETE FROM address_Book
 WHERE first_name = 'Pranali' AND last_name='Patil'
 
 INSERT INTO address_Book(first_name,last_name,address,city,state,zip,phone,email)
-VALUES ('Ritik','Manglani','Koregaon Park','','Pune','Maharashtra',410038,7865456787,'manglaniritik23@gmail.com'),
+VALUES ('Ritik','Manglani','Koregaon Park','Pune','Maharashtra',410038,7865456787,'manglaniritik23@gmail.com'),
 ('Bhavesh','Rajput','Kashima Nagar','Aurangabad','Maharashtra',431001,7658768987,'rajputBhavesh12@gmail.com'),
-('Akash','Girase','deccan','Mumbai','Maharahtra',4551001,9921366811,'Akash21@gmail.com'),
+('Akash','Girase','Gulmohar Nagar','Pansemal','U.P',4551001,9921366811,'Akash21@gmail.com'),
 ('Madhuri','Patil','krishna Colony','Ahemdabad','Gujraat',320008,8553109765,'Madhuri2604@gmail.com');
+
+SELECT * FROM address_Book
+WHERE city = 'Pune'
+
+SELECT * FROM address_Book
+WHERE state = 'Gujraat'
+
+SELECT COUNT(*) FROM address_Book
+WHERE city = 'Pune'
+
+SELECT COUNT(*) FROM address_Book
