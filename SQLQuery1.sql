@@ -27,3 +27,9 @@ WHERE first_name = 'Riya' AND last_name= 'More'
 
 DELETE FROM address_Book
 WHERE first_name = 'Pranali' AND last_name='Patil'
+
+INSERT INTO address_Book(first_name,last_name,address,city,state,zip,phone,email)
+VALUES ('Ritik','Manglani','Koregaon Park','','Pune','Maharashtra',410038,7865456787,'manglaniritik23@gmail.com'),
+('Bhavesh','Rajput','Kashima Nagar','Aurangabad','Maharashtra',431001,7658768987,'rajputBhavesh12@gmail.com'),
+('Akash','Girase','deccan','Mumbai','Maharahtra',4551001,9921366811,'Akash21@gmail.com'),
+('Madhuri','Patil','krishna Colony','Ahemdabad','Gujraat',320008,8553109765,'Madhuri2604@gmail.com');
