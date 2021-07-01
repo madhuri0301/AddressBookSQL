@@ -20,5 +20,10 @@ VALUES ('Pranali','Patil','ShriKrishna Colony','Shahada','Maharashtra',435409,98
 ('Riya','More','College Road','Nasik','Maharahtra',455110,8821056811,'riyamore@gmail.com'),
 ('Priyanka','Sonar','Shvaji Nagar','Pune','Maharashtra',461124,7653809765,'priya03@gmail.com');
 
-UPDATE address_Book SET phone = 7898765678
+SELECT * FROM address_Book
+
+UPDATE address_Book SET phone = 8888765243
 WHERE first_name = 'Riya' AND last_name= 'More'
+
+DELETE FROM address_Book
+WHERE first_name = 'Pranali' AND last_name='Patil'
