@@ -19,3 +19,6 @@ VALUES ('Pranali','Patil','ShriKrishna Colony','Shahada','Maharashtra',435409,98
 ('Rupali','Patil','Tulsi Nagar','Shahada','Maharashtra',412309,9123654367,'rupaliPatil16@gmail.com'),
 ('Riya','More','College Road','Nasik','Maharahtra',455110,8821056811,'riyamore@gmail.com'),
 ('Priyanka','Sonar','Shvaji Nagar','Pune','Maharashtra',461124,7653809765,'priya03@gmail.com');
+
+UPDATE address_Book SET phone = 7898765678
+WHERE first_name = 'Riya' AND last_name= 'More'
