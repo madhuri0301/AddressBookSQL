@@ -26,7 +26,7 @@ UPDATE address_Book SET phone = 8888765243
 WHERE first_name = 'Riya' AND last_name= 'More'
 
 DELETE FROM address_Book
-WHERE first_name = 'Pranali' AND last_name='Patil'
+WHERE first_name = 'Pranali' AND last_name ='Patil'
 
 INSERT INTO address_Book(first_name,last_name,address,city,state,zip,phone,email)
 VALUES ('Ritik','Manglani','Koregaon Park','Pune','Maharashtra',410038,7865456787,'manglaniritik23@gmail.com'),
@@ -41,6 +41,10 @@ SELECT * FROM address_Book
 WHERE state = 'Gujraat'
 
 SELECT COUNT(*) FROM address_Book
-WHERE city = 'Pune'
 
-SELECT COUNT(*) FROM address_Book
+SELECT COUNT(state) FROM address_Book
+
+SELECT COUNT(city) FROM address_Book
+
+SELECT first_name FROM address_Book
+ORDER BY city
