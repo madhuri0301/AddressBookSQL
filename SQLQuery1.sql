@@ -59,3 +59,13 @@ UPDATE address_Book SET TYPE = 'Family' WHERE first_name = 'Priyanka';
 UPDATE address_Book SET TYPE = 'Profession' WHERE first_name = 'Bhavesh';
 UPDATE address_Book SET TYPE = 'Profession' WHERE first_name = 'Akash';
 UPDATE address_Book SET TYPE = 'Family' WHERE first_name = 'Madhuri';
+
+SELECT COUNT(*) FROM address_Book
+WHERE TYPE = 'Friend'
+
+SELECT COUNT(*) FROM address_Book
+WHERE TYPE = 'Family'
+
+SELECT COUNT(*) FROM address_Book
+WHERE TYPE = 'Profession'
+
