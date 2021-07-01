@@ -48,3 +48,14 @@ SELECT COUNT(city) FROM address_Book
 
 SELECT first_name FROM address_Book
 ORDER BY city
+
+ALTER TABLE address_Book
+ADD TYPE varchar(30)
+
+UPDATE address_Book SET TYPE = 'Friend' WHERE first_name = 'Ritik';
+UPDATE address_Book SET TYPE = 'Friend' WHERE first_name = 'Rupali';
+UPDATE address_Book SET TYPE = 'Family' WHERE first_name = 'Riya';
+UPDATE address_Book SET TYPE = 'Family' WHERE first_name = 'Priyanka';
+UPDATE address_Book SET TYPE = 'Profession' WHERE first_name = 'Bhavesh';
+UPDATE address_Book SET TYPE = 'Profession' WHERE first_name = 'Akash';
+UPDATE address_Book SET TYPE = 'Family' WHERE first_name = 'Madhuri';
