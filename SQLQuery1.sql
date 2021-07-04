@@ -73,3 +73,14 @@ INSERT INTO address_Book(first_name,last_name,address,city,state,zip,phone,email
 VALUES ('Prateek','Hajare','Gandhi Park','Pune','Maharashtra',410131,8895352787,'pratikhajare09@gmail.com','Friend'),
 ('Anand','Chaudhari','Moshi','Pune','Maharashtra',412301,9089765643,'anand04@gmail.com','Family');
 
+/*Retriving data*/
+SELECT * FROM address_Book
+
+SELECT * FROM address_Book
+WHERE city = 'Ahemdabad'
+
+SELECT first_name FROM address_Book
+ORDER BY city
+
+SELECT COUNT(*) FROM address_Book
+WHERE TYPE = 'Friend'
